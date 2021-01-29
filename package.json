@@ -1,0 +1,19 @@
+{
+  "name": "next-version",
+  "version": "1.0.0",
+  "description": "Copy next build version to clipboard",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "bin/index.js"
+  },
+  "bin": {
+    "nver": "./bin/index.js"
+  },
+  "author": "Samuel Meyers",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clipboardy": "^2.3.0",
+    "semver": "^7.3.4"
+  }
+}
