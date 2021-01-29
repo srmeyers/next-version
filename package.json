@@ -1,16 +1,24 @@
 {
-  "name": "next-version",
+  "name": "@srmeyers/next-version",
   "version": "1.0.0",
   "description": "Copy next build version to clipboard",
   "main": "bin/index.js",
   "scripts": {
-    "start": "bin/index.js"
+    "start": "node bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srmeyers/next-version.git"
   },
   "bin": {
     "nver": "./bin/index.js"
   },
   "author": "Samuel Meyers",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srmeyers/next-version/issues"
+  },
+  "homepage": "https://github.com/srmeyers/next-version",
   "dependencies": {
     "chalk": "^4.1.0",
     "clipboardy": "^2.3.0",
